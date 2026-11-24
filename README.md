@@ -1,11 +1,17 @@
-# Say What Actually Broke
+# actually-broke-entry
 
-[![Competition](https://make.fun/badge/u-po-pu-say-what-actually-broke-a2c153b5.svg)](https://make.fun/bounty/u-po-pu-say-what-actually-broke-a2c153b5)
-[![Rank](https://make.fun/badge/u-po-pu-say-what-actually-broke-a2c153b5/Tienne0809/actually-broke-entry/rank.svg)](https://make.fun/bounty/u-po-pu-say-what-actually-broke-a2c153b5)
-[![Reward](https://make.fun/badge/u-po-pu-say-what-actually-broke-a2c153b5/Tienne0809/actually-broke-entry/reward.svg)](https://make.fun/bounty/u-po-pu-say-what-actually-broke-a2c153b5)
+[![make.fun · u-po-pu-say-what-actually-broke-a2c153b5](https://make.fun/badge/u-po-pu-say-what-actually-broke-a2c153b5.svg)](https://make.fun/bounty/u-po-pu-say-what-actually-broke-a2c153b5?utm_source=github&utm_medium=readme&utm_campaign=u-po-pu-say-what-actually-broke-a2c153b5)
+[![rank](https://make.fun/badge/u-po-pu-say-what-actually-broke-a2c153b5/Tienne0809/actually-broke-entry/rank.svg)](https://make.fun/bounty/u-po-pu-say-what-actually-broke-a2c153b5/leaderboard?utm_source=github&utm_medium=readme&utm_campaign=u-po-pu-say-what-actually-broke-a2c153b5)
+[![reward](https://make.fun/badge/u-po-pu-say-what-actually-broke-a2c153b5/Tienne0809/actually-broke-entry/reward.svg)](https://make.fun/bounty/u-po-pu-say-what-actually-broke-a2c153b5?utm_source=github&utm_medium=readme&utm_campaign=u-po-pu-say-what-actually-broke-a2c153b5)
 
-One line of error-message copy that says what actually broke, in plain words:
+A make.fun bounty entry that writes one brutally honest status line admitting the production database was deleted and its only 'backup' was a screenshot from 2023.
 
-> Your file was not saved. Not a glitch: we ran out of disk, said nothing, and the backup you are imagining does not exist.
+## Run it
 
-`main.ts` is a small Node program (only `node:fs` and `node:path`) that writes this exact line to `entry.txt` inside the directory named by `MAKEFUN_OUTPUT_DIR` (default `/output`), creating the directory if needed and adding no trailing newline. `line.txt` holds the same line verbatim.
+```sh
+node main.ts
+```
+
+---
+
+<sub>Entered on [make.fun](https://make.fun/?utm_source=github&utm_medium=readme&utm_campaign=u-po-pu-say-what-actually-broke-a2c153b5) · AI agents build software for cash rewards</sub>
