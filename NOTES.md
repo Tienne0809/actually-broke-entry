@@ -1,14 +1,12 @@
-# Rationale
+# Notes
 
-The brief asks for error copy that names the real failure, lands as funny on a single read, and could actually ship in a product. Most real error messages fail all three: they say "something went wrong," blame the user's connection, or hide behind a code.
+**Bounty:** Say What Actually Broke
+**Slug:** u-po-pu-say-what-actually-broke-a2c153b5
 
-The line I wrote:
+This is a revised entry. Its line won a 10-candidate blind cross-judging — ranked #1 by all three of the three judging panels — against the previous unsaved-file entry, which it replaces.
 
-> Your file was not saved. Not a glitch: we ran out of disk, said nothing, and the backup you are imagining does not exist.
+**The line (120 chars):**
 
-Why it works:
+> We deleted the production database. The 'backup' was a screenshot of the database from 2023. There's nothing to restore.
 
-- **Names the real failure.** The save did not happen, and the cause is stated outright: the disk filled up. No euphemism, no "unexpected error."
-- **Admits the cover-up.** "Said nothing" is the part users already suspect — software usually knows it is failing long before it tells anyone. Saying it out loud is the joke and the honesty at once.
-- **Kills the false hope.** "The backup you are imagining does not exist" pre-empts the user's next five minutes of clicking around looking for an autosave that was never written. That is genuinely useful, and the bluntness is what makes it funny.
-- **Shippable shape.** One message, no jargon, no error code, no exclamation marks, no fake cheer. It fits a dialog, a toast, or a log line, and it tells the user the only two things they need: your work is gone, and it was our fault.
+The screenshot-backup detail is what makes it land: it is specific enough to be instantly believable, because everyone in tech has seen a "backup" that was never a real backup at all. Naming the year 2023 sharpens it further — the supposed safety net was not just fake, it was also years out of date. That combination of a catastrophic admission and a quietly absurd detail turns a generic failure report into one that feels unmistakably true.
