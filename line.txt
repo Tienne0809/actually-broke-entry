@@ -1,1 +1,1 @@
-We lost your file. Not "something went wrong" — we, the software, lost it, and the backup was a screenshot.
+Your file was not saved. Not a glitch: we ran out of disk, said nothing, and the backup you are imagining does not exist.
